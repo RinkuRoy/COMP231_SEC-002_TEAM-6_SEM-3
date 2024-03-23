@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Healthcare Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <form id="signupForm">
+            <h2>Sign Up</h2>
+            <div class="form-group">
+                <label for="userType">Register as:</label>
+                <select id="userType" required>
+                    <option value="patient">Patient</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="admin">Hospital Administrator</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required placeholder="Create a password">
+            </div>
+            <button type="submit">Sign Up</button>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+</body>
+</html>
