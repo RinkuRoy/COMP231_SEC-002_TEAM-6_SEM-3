@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rescheduling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/finddoctor">Find a Doctor</a></li>
+          <li><a href="/aboutus">About us</a></li>
+          <li><a href="/contactus">Contact us</a></li>
+        </ul>
+      </nav>
+      
+      <section class="main-content">
+        <h1>Appointment Management</h1>
+      <h2>Reschedule Appointment</h2>
+      <form id="reschedule-appointment-form">
+        <label for="old-date">Old Date:</label>
+        <input type="date" id="old-date" name="old-date" required>
+        <label for="old-time">Old Time:</label>
+        <input type="time" id="old-time" name="old-time" required>
+        <label for="new-date">New Date:</label>
+        <input type="date" id="new-date" name="new-date" required>
+        <label for="new-time">New Time:</label>
+        <input type="time" id="new-time" name="new-time" required>
+        <button type="submit">Reschedule</button>
+      </form>
+
+      <div id="feedback-message"></div>
+      </section>
+
+      <footer>
+        <p>Copyright &copy; 2024, MedSafe. All rights reserved.</p>
+      </footer>
+  
+  
+  
+</body>
+</html>

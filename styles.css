@@ -1,0 +1,98 @@
+/* Add your custom styles here */
+/*nav*/
+nav {
+    background-color: #106161;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.point {
+  border: 2px solid #000; 
+  border-radius: 10px; 
+  padding: 20px; 
+  width: 300px; 
+}
+
+.point h2 {
+  margin: 0; 
+}
+
+.point a {
+  display: block; 
+  text-decoration: none; 
+  color: #000; 
+  margin-bottom: 10px; 
+}
+
+  
+.main-content {
+    padding: 20px;
+  }
+  
+  .main-content h1, .main-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="date"],
+  input[type="time"] {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #106161;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0c4c4c;
+  }
+  
+  #feedback-message {
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: #106161;
+    display: none;
+  }
+  
+  footer {
+    background-color: #106161;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
